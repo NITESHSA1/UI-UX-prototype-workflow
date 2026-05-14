@@ -1,0 +1,74 @@
+title: Interactive Prototype Creation Workshop
+size: [1280, 720]
+theme:
+  colors:
+    primary: "#1A1A2E"
+    secondary: "#6B7280"
+    accent: "#F97316"
+    background: "#F9F8F6"
+    dark: "#0F0F1A"
+    light: "#F9F8F6"
+    cardFill: "#F3F0EC"
+    muted: "#FFF7ED"
+  textStyles:
+    title:
+      fontSize: 42
+      color: "$light"
+      fontFamily: "Liter"
+      letterSpacing: 4
+      lineHeight: 1.2
+    heading:
+      fontSize: 28
+      color: "$primary"
+      fontFamily: "Liter"
+      lineHeight: 1.3
+    body:
+      fontSize: 20
+      color: "$secondary"
+      fontFamily: "QuattrocentoSans"
+      lineHeight: 1.6
+    caption:
+      fontSize: 14
+      color: "$secondary"
+      fontFamily: "QuattrocentoSans"
+      lineHeight: 1.4
+    accent_number:
+      fontSize: 48
+      color: "$accent"
+      fontFamily: "Liter"
+      lineHeight: 1.1
+    label:
+      fontSize: 14
+      color: "$secondary"
+      fontFamily: "QuattrocentoSans"
+      lineHeight: 1.4
+      backgroundColor: "$muted"
+  tableStyles:
+    default:
+      fontSize: 16
+      fontFamily: "QuattrocentoSans"
+      headerFill: "$primary"
+      headerColor: "$light"
+      headerBold: true
+      bodyFill:
+        - "$background"
+        - "$cardFill"
+      bodyColor: "$primary"
+      border:
+        style: solid
+        width: 1
+        color: "#E5E2DE"
+pages:
+  - pages/cover.page
+  - pages/toc.page
+  - pages/chapter1.page
+  - pages/why-prototypes.page
+  - pages/tools.page
+  - pages/conversion.page
+  - pages/chapter2.page
+  - pages/animations.page
+  - pages/navigation.page
+  - pages/chapter3.page
+  - pages/user-testing.page
+  - pages/feedback.page
+  - pages/final.page

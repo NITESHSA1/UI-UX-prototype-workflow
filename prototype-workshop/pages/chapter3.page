@@ -1,0 +1,72 @@
+pageType: chapter
+background:
+  type: image
+  src: "https://kimi-web-img.moonshot.cn/img/www.usertesting.com/40e12bc78ea37774f189016348aef768eadd4781.webp"
+  fit: {mode: cover}
+  mask:
+    type: gradient
+    gradientType: linear
+    angle: 0
+    stops:
+      - {position: 0, color: "#0F0F1AE8"}
+      - {position: 0.6, color: "#0F0F1ACC"}
+      - {position: 1, color: "#0F0F1A99"}
+elements:
+  - elementId: ch3-watermark
+    elementType: text
+    bounds: [60, 120, 400, 160]
+    opacity: 0.08
+    content:
+      fontSize: 140
+      fontFamily: "Liter"
+      color: "$light"
+      align: [left, top]
+      wrap: false
+      text: |
+        <p>03</p>
+
+  - elementId: ch3-label
+    elementType: text
+    bounds: [60, 280, 200, 22]
+    content:
+      fontSize: 14
+      fontFamily: "Liter"
+      color: "$accent"
+      letterSpacing: 3
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>CHAPTER THREE</p>
+
+  - elementId: ch3-accent-line
+    elementType: shape
+    bounds: [60, 320, 60, 3]
+    shapeName: rect
+    fill:
+      type: solid
+      color: "$accent"
+
+  - elementId: ch3-title
+    elementType: text
+    bounds: [60, 340, 700, 55]
+    content:
+      fontSize: 38
+      fontFamily: "Liter"
+      color: "$light"
+      letterSpacing: 3
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>TESTING & ITERATION</p>
+
+  - elementId: ch3-subtitle
+    elementType: text
+    bounds: [60, 410, 600, 70]
+    content:
+      fontSize: 18
+      fontFamily: "QuattrocentoSans"
+      color: "#F9F8F6AA"
+      lineHeight: 1.5
+      align: [left, top]
+      text: |
+        <p>Validate your designs with real users and transform feedback into actionable improvements</p>

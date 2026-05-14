@@ -1,0 +1,352 @@
+pageType: content
+background:
+  type: solid
+  color: "$background"
+elements:
+  - elementId: conv-label
+    elementType: text
+    bounds: [60, 45, 250, 22]
+    content:
+      style: "$label"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>PROCESS</p>
+
+  - elementId: conv-title
+    elementType: text
+    bounds: [60, 75, 800, 40]
+    content:
+      style: "$heading"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>Converting Wireframes to Prototypes</p>
+
+  - elementId: conv-accent-bar
+    elementType: shape
+    bounds: [60, 125, 50, 3]
+    shapeName: rect
+    fill:
+      type: solid
+      color: "$accent"
+
+  - elementId: step1-bg
+    elementType: shape
+    bounds: [60, 155, 373, 130]
+    shapeName: roundRect
+    adjustments: [8000]
+    fill:
+      type: solid
+      color: "$cardFill"
+
+  - elementId: step1-num
+    elementType: text
+    bounds: [80, 163, 55, 36]
+    content:
+      fontSize: 28
+      fontFamily: "Liter"
+      color: "$accent"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>01</p>
+
+  - elementId: step1-title
+    elementType: text
+    bounds: [140, 163, 273, 30]
+    content:
+      fontSize: 16
+      fontFamily: "Liter"
+      color: "$primary"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>IMPORT WIREFRAMES</p>
+
+  - elementId: step1-desc
+    elementType: text
+    bounds: [80, 203, 333, 65]
+    content:
+      fontSize: 15
+      fontFamily: "QuattrocentoSans"
+      color: "$secondary"
+      lineHeight: 1.5
+      align: [left, top]
+      text: |
+        <p>Import or create your wireframes in the prototyping tool</p>
+
+  - elementId: step2-bg
+    elementType: shape
+    bounds: [453, 155, 374, 130]
+    shapeName: roundRect
+    adjustments: [8000]
+    fill:
+      type: solid
+      color: "$cardFill"
+
+  - elementId: step2-num
+    elementType: text
+    bounds: [473, 163, 55, 36]
+    content:
+      fontSize: 28
+      fontFamily: "Liter"
+      color: "$accent"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>02</p>
+
+  - elementId: step2-title
+    elementType: text
+    bounds: [533, 163, 274, 30]
+    content:
+      fontSize: 16
+      fontFamily: "Liter"
+      color: "$primary"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>DEFINE HOTSPOTS</p>
+
+  - elementId: step2-desc
+    elementType: text
+    bounds: [473, 203, 334, 65]
+    content:
+      fontSize: 15
+      fontFamily: "QuattrocentoSans"
+      color: "$secondary"
+      lineHeight: 1.5
+      align: [left, top]
+      text: |
+        <p>Identify all clickable elements: buttons, links, cards</p>
+
+  - elementId: step3-bg
+    elementType: shape
+    bounds: [847, 155, 373, 130]
+    shapeName: roundRect
+    adjustments: [8000]
+    fill:
+      type: solid
+      color: "$cardFill"
+
+  - elementId: step3-num
+    elementType: text
+    bounds: [867, 163, 55, 36]
+    content:
+      fontSize: 28
+      fontFamily: "Liter"
+      color: "$accent"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>03</p>
+
+  - elementId: step3-title
+    elementType: text
+    bounds: [927, 163, 273, 30]
+    content:
+      fontSize: 16
+      fontFamily: "Liter"
+      color: "$primary"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>CREATE CONNECTIONS</p>
+
+  - elementId: step3-desc
+    elementType: text
+    bounds: [867, 203, 333, 65]
+    content:
+      fontSize: 15
+      fontFamily: "QuattrocentoSans"
+      color: "$secondary"
+      lineHeight: 1.5
+      align: [left, top]
+      text: |
+        <p>Link screens together via hotspot definitions</p>
+
+  - elementId: step4-bg
+    elementType: shape
+    bounds: [60, 305, 373, 130]
+    shapeName: roundRect
+    adjustments: [8000]
+    fill:
+      type: solid
+      color: "$cardFill"
+
+  - elementId: step4-num
+    elementType: text
+    bounds: [80, 313, 55, 36]
+    content:
+      fontSize: 28
+      fontFamily: "Liter"
+      color: "$accent"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>04</p>
+
+  - elementId: step4-title
+    elementType: text
+    bounds: [140, 313, 273, 30]
+    content:
+      fontSize: 16
+      fontFamily: "Liter"
+      color: "$primary"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>SET TRANSITIONS</p>
+
+  - elementId: step4-desc
+    elementType: text
+    bounds: [80, 353, 333, 65]
+    content:
+      fontSize: 15
+      fontFamily: "QuattrocentoSans"
+      color: "$secondary"
+      lineHeight: 1.5
+      align: [left, top]
+      text: |
+        <p>Choose instant, dissolve, slide, or smart animate</p>
+
+  - elementId: step5-bg
+    elementType: shape
+    bounds: [453, 305, 374, 130]
+    shapeName: roundRect
+    adjustments: [8000]
+    fill:
+      type: solid
+      color: "$cardFill"
+
+  - elementId: step5-num
+    elementType: text
+    bounds: [473, 313, 55, 36]
+    content:
+      fontSize: 28
+      fontFamily: "Liter"
+      color: "$accent"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>05</p>
+
+  - elementId: step5-title
+    elementType: text
+    bounds: [533, 313, 274, 30]
+    content:
+      fontSize: 16
+      fontFamily: "Liter"
+      color: "$primary"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>ADD SCROLLING</p>
+
+  - elementId: step5-desc
+    elementType: text
+    bounds: [473, 353, 334, 65]
+    content:
+      fontSize: 15
+      fontFamily: "QuattrocentoSans"
+      color: "$secondary"
+      lineHeight: 1.5
+      align: [left, top]
+      text: |
+        <p>Configure fixed headers and scrollable content areas</p>
+
+  - elementId: step6-bg
+    elementType: shape
+    bounds: [847, 305, 373, 130]
+    shapeName: roundRect
+    adjustments: [8000]
+    fill:
+      type: solid
+      color: "$cardFill"
+
+  - elementId: step6-num
+    elementType: text
+    bounds: [867, 313, 55, 36]
+    content:
+      fontSize: 28
+      fontFamily: "Liter"
+      color: "$accent"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>06</p>
+
+  - elementId: step6-title
+    elementType: text
+    bounds: [927, 313, 273, 30]
+    content:
+      fontSize: 16
+      fontFamily: "Liter"
+      color: "$primary"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>PREVIEW & TEST</p>
+
+  - elementId: step6-desc
+    elementType: text
+    bounds: [867, 353, 333, 65]
+    content:
+      fontSize: 15
+      fontFamily: "QuattrocentoSans"
+      color: "$secondary"
+      lineHeight: 1.5
+      align: [left, top]
+      text: |
+        <p>Click through the prototype as a user would</p>
+
+  - elementId: best-practice-card
+    elementType: shape
+    bounds: [60, 470, 1160, 170]
+    shapeName: roundRect
+    adjustments: [6000]
+    fill:
+      type: solid
+      color: "$primary"
+
+  - elementId: bp-icon
+    elementType: icon
+    bounds: [90, 490, 28, 28]
+    iconName: "fas:star"
+    fill:
+      type: solid
+      color: "$accent"
+
+  - elementId: bp-label
+    elementType: text
+    bounds: [130, 490, 300, 28]
+    content:
+      fontSize: 14
+      fontFamily: "Liter"
+      color: "$accent"
+      letterSpacing: 2
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>BEST PRACTICE</p>
+
+  - elementId: bp-text
+    elementType: text
+    bounds: [90, 530, 1100, 90]
+    content:
+      fontSize: 18
+      fontFamily: "QuattrocentoSans"
+      color: "$light"
+      lineHeight: 1.6
+      align: [left, top]
+      text: |
+        <p>Start with the <strong style="color:$accent;">"happy path"</strong> — the ideal user flow that accomplishes the primary goal. Once the main journey works smoothly, then handle edge cases, error states, and alternate paths.</p>
+
+  - elementId: conv-bottom-bar
+    elementType: shape
+    bounds: [60, 690, 1160, 3]
+    shapeName: rect
+    fill:
+      type: solid
+      color: "$accent"

@@ -1,0 +1,216 @@
+pageType: table_of_contents
+background:
+  type: solid
+  color: "$background"
+elements:
+  - elementId: toc-label
+    elementType: text
+    bounds: [60, 50, 200, 22]
+    content:
+      fontSize: 14
+      fontFamily: "Liter"
+      color: "$accent"
+      letterSpacing: 3
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>WORKSHOP</p>
+
+  - elementId: toc-title
+    elementType: text
+    bounds: [60, 80, 500, 50]
+    content:
+      style: "$heading"
+      fontSize: 38
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>Agenda</p>
+
+  - elementId: accent-bar
+    elementType: shape
+    bounds: [60, 140, 60, 4]
+    shapeName: rect
+    fill:
+      type: solid
+      color: "$accent"
+
+  - elementId: card1-bg
+    elementType: shape
+    bounds: [60, 180, 360, 440]
+    shapeName: roundRect
+    adjustments: [8000]
+    fill:
+      type: solid
+      color: "$cardFill"
+
+  - elementId: card1-number
+    elementType: text
+    bounds: [90, 210, 120, 70]
+    content:
+      fontSize: 56
+      fontFamily: "Liter"
+      color: "$accent"
+      align: [left, top]
+      wrap: false
+      text: |
+        <p>01</p>
+
+  - elementId: card1-title
+    elementType: text
+    bounds: [90, 290, 330, 32]
+    content:
+      fontSize: 22
+      fontFamily: "Liter"
+      color: "$primary"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>From Wireframes to Prototypes</p>
+
+  - elementId: card1-line
+    elementType: shape
+    bounds: [90, 340, 40, 3]
+    shapeName: rect
+    fill:
+      type: solid
+      color: "$accent"
+
+  - elementId: card1-desc
+    elementType: text
+    bounds: [90, 365, 300, 100]
+    content:
+      style: "$body"
+      fontSize: 16
+      lineHeight: 1.6
+      align: [left, top]
+      text: |
+        <p>Transform static wireframes into clickable prototypes using Figma and InVision</p>
+
+  - elementId: card1-icon
+    elementType: icon
+    bounds: [90, 540, 40, 40]
+    iconName: "far:object-group"
+    fill:
+      type: solid
+      color: "$accent"
+
+  - elementId: card2-bg
+    elementType: shape
+    bounds: [460, 180, 360, 440]
+    shapeName: roundRect
+    adjustments: [8000]
+    fill:
+      type: solid
+      color: "$cardFill"
+
+  - elementId: card2-number
+    elementType: text
+    bounds: [490, 210, 120, 70]
+    content:
+      fontSize: 56
+      fontFamily: "Liter"
+      color: "$accent"
+      align: [left, top]
+      wrap: false
+      text: |
+        <p>02</p>
+
+  - elementId: card2-title
+    elementType: text
+    bounds: [490, 290, 300, 32]
+    content:
+      fontSize: 22
+      fontFamily: "Liter"
+      color: "$primary"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>Bringing Prototypes to Life</p>
+
+  - elementId: card2-line
+    elementType: shape
+    bounds: [490, 340, 40, 3]
+    shapeName: rect
+    fill:
+      type: solid
+      color: "$accent"
+
+  - elementId: card2-desc
+    elementType: text
+    bounds: [490, 365, 300, 100]
+    content:
+      style: "$body"
+      fontSize: 16
+      lineHeight: 1.6
+      align: [left, top]
+      text: |
+        <p>Add animations, transitions, and navigation flows for realistic experiences</p>
+
+  - elementId: card2-icon
+    elementType: icon
+    bounds: [490, 540, 40, 40]
+    iconName: "far:lightbulb"
+    fill:
+      type: solid
+      color: "$accent"
+
+  - elementId: card3-bg
+    elementType: shape
+    bounds: [860, 180, 360, 440]
+    shapeName: roundRect
+    adjustments: [8000]
+    fill:
+      type: solid
+      color: "$cardFill"
+
+  - elementId: card3-number
+    elementType: text
+    bounds: [890, 210, 120, 70]
+    content:
+      fontSize: 56
+      fontFamily: "Liter"
+      color: "$accent"
+      align: [left, top]
+      wrap: false
+      text: |
+        <p>03</p>
+
+  - elementId: card3-title
+    elementType: text
+    bounds: [890, 290, 300, 32]
+    content:
+      fontSize: 22
+      fontFamily: "Liter"
+      color: "$primary"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>Testing & Iteration</p>
+
+  - elementId: card3-line
+    elementType: shape
+    bounds: [890, 340, 40, 3]
+    shapeName: rect
+    fill:
+      type: solid
+      color: "$accent"
+
+  - elementId: card3-desc
+    elementType: text
+    bounds: [890, 365, 300, 100]
+    content:
+      style: "$body"
+      fontSize: 16
+      lineHeight: 1.6
+      align: [left, top]
+      text: |
+        <p>Validate with real users, gather feedback, and refine designs iteratively</p>
+
+  - elementId: card3-icon
+    elementType: icon
+    bounds: [890, 540, 40, 40]
+    iconName: "far:comments"
+    fill:
+      type: solid
+      color: "$accent"

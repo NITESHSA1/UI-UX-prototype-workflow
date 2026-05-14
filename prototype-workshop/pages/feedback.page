@@ -1,0 +1,313 @@
+pageType: content
+background:
+  type: solid
+  color: "$background"
+elements:
+  - elementId: fb-label
+    elementType: text
+    bounds: [60, 45, 250, 22]
+    content:
+      style: "$label"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>ITERATION</p>
+
+  - elementId: fb-title
+    elementType: text
+    bounds: [60, 75, 800, 40]
+    content:
+      style: "$heading"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>Gathering Feedback & Refining Designs</p>
+
+  - elementId: fb-accent-bar
+    elementType: shape
+    bounds: [60, 125, 50, 3]
+    shapeName: rect
+    fill:
+      type: solid
+      color: "$accent"
+
+  - elementId: fb-sources-label
+    elementType: text
+    bounds: [60, 150, 300, 28]
+    content:
+      fontSize: 16
+      fontFamily: "Liter"
+      color: "$accent"
+      letterSpacing: 2
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>FEEDBACK SOURCES</p>
+
+  - elementId: fb-sources-text
+    elementType: text
+    bounds: [60, 188, 1160, 60]
+    content:
+      fontSize: 18
+      fontFamily: "QuattrocentoSans"
+      color: "$secondary"
+      lineHeight: 1.5
+      align: [left, top]
+      text: |
+        <p>User testing sessions  ·  Stakeholder reviews  ·  Analytics heatmaps  ·  Peer design critiques  ·  A/B test results</p>
+
+  - elementId: framework-label
+    elementType: text
+    bounds: [60, 265, 400, 28]
+    content:
+      fontSize: 16
+      fontFamily: "Liter"
+      color: "$accent"
+      letterSpacing: 2
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>STRUCTURED FEEDBACK FRAMEWORK</p>
+
+  - elementId: fw1-bg
+    elementType: shape
+    bounds: [60, 305, 373, 45]
+    shapeName: roundRect
+    adjustments: [8000]
+    fill:
+      type: solid
+      color: "#DCFCE7"
+
+  - elementId: fw1-text
+    elementType: text
+    bounds: [85, 305, 323, 45]
+    content:
+      fontSize: 18
+      fontFamily: "QuattrocentoSans"
+      color: "#166534"
+      align: [left, middle]
+      text: |
+        <p><strong>What worked?</strong> Keep and enhance</p>
+
+  - elementId: fw2-bg
+    elementType: shape
+    bounds: [453, 305, 374, 45]
+    shapeName: roundRect
+    adjustments: [8000]
+    fill:
+      type: solid
+      color: "#FEE2E2"
+
+  - elementId: fw2-text
+    elementType: text
+    bounds: [478, 305, 324, 45]
+    content:
+      fontSize: 18
+      fontFamily: "QuattrocentoSans"
+      color: "#991B1B"
+      align: [left, middle]
+      text: |
+        <p><strong>What confused?</strong> Redesign and clarify</p>
+
+  - elementId: fw3-bg
+    elementType: shape
+    bounds: [847, 305, 373, 45]
+    shapeName: roundRect
+    adjustments: [8000]
+    fill:
+      type: solid
+      color: "$muted"
+
+  - elementId: fw3-text
+    elementType: text
+    bounds: [872, 305, 323, 45]
+    content:
+      fontSize: 18
+      fontFamily: "QuattrocentoSans"
+      color: "#9A3412"
+      align: [left, middle]
+      text: |
+        <p><strong>What was missing?</strong> Add and complete</p>
+
+  - elementId: cycle-label
+    elementType: text
+    bounds: [60, 415, 400, 28]
+    content:
+      fontSize: 16
+      fontFamily: "Liter"
+      color: "$accent"
+      letterSpacing: 2
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>ITERATION CYCLE</p>
+
+  - elementId: cycle-step1-bg
+    elementType: shape
+    bounds: [60, 455, 210, 60]
+    shapeName: roundRect
+    adjustments: [10000]
+    fill:
+      type: solid
+      color: "$accent"
+
+  - elementId: cycle-step1-text
+    elementType: text
+    bounds: [60, 455, 210, 60]
+    content:
+      fontSize: 16
+      fontFamily: "Liter"
+      color: "$light"
+      align: [center, middle]
+      wrap: false
+      text: |
+        <p>TEST</p>
+
+  - elementId: cycle-arrow1
+    elementType: shape
+    bounds: [280, 480, 30, 0]
+    shapeName: straightConnector1
+    arrow: [null, "arrow"]
+    border: {style: solid, width: 2, color: "$accent"}
+
+  - elementId: cycle-step2-bg
+    elementType: shape
+    bounds: [320, 455, 210, 60]
+    shapeName: roundRect
+    adjustments: [10000]
+    fill:
+      type: solid
+      color: "$primary"
+
+  - elementId: cycle-step2-text
+    elementType: text
+    bounds: [320, 455, 210, 60]
+    content:
+      fontSize: 16
+      fontFamily: "Liter"
+      color: "$light"
+      align: [center, middle]
+      wrap: false
+      text: |
+        <p>ANALYZE</p>
+
+  - elementId: cycle-arrow2
+    elementType: shape
+    bounds: [540, 480, 30, 0]
+    shapeName: straightConnector1
+    arrow: [null, "arrow"]
+    border: {style: solid, width: 2, color: "$accent"}
+
+  - elementId: cycle-step3-bg
+    elementType: shape
+    bounds: [580, 455, 210, 60]
+    shapeName: roundRect
+    adjustments: [10000]
+    fill:
+      type: solid
+      color: "$primary"
+
+  - elementId: cycle-step3-text
+    elementType: text
+    bounds: [580, 455, 210, 60]
+    content:
+      fontSize: 16
+      fontFamily: "Liter"
+      color: "$light"
+      align: [center, middle]
+      wrap: false
+      text: |
+        <p>PRIORITIZE</p>
+
+  - elementId: cycle-arrow3
+    elementType: shape
+    bounds: [800, 480, 30, 0]
+    shapeName: straightConnector1
+    arrow: [null, "arrow"]
+    border: {style: solid, width: 2, color: "$accent"}
+
+  - elementId: cycle-step4-bg
+    elementType: shape
+    bounds: [840, 455, 210, 60]
+    shapeName: roundRect
+    adjustments: [10000]
+    fill:
+      type: solid
+      color: "$primary"
+
+  - elementId: cycle-step4-text
+    elementType: text
+    bounds: [840, 455, 210, 60]
+    content:
+      fontSize: 16
+      fontFamily: "Liter"
+      color: "$light"
+      align: [center, middle]
+      wrap: false
+      text: |
+        <p>REDESIGN</p>
+
+  - elementId: cycle-arrow4
+    elementType: shape
+    bounds: [1060, 480, 30, 0]
+    shapeName: straightConnector1
+    arrow: [null, "arrow"]
+    border: {style: solid, width: 2, color: "$accent"}
+
+  - elementId: cycle-step5-bg
+    elementType: shape
+    bounds: [1100, 455, 120, 60]
+    shapeName: roundRect
+    adjustments: [10000]
+    fill:
+      type: solid
+      color: "$accent"
+
+  - elementId: cycle-step5-text
+    elementType: text
+    bounds: [1100, 455, 120, 60]
+    content:
+      fontSize: 16
+      fontFamily: "Liter"
+      color: "$light"
+      align: [center, middle]
+      wrap: false
+      text: |
+        <p>TEST →</p>
+
+  - elementId: fb-quote-card
+    elementType: shape
+    bounds: [60, 555, 1160, 90]
+    shapeName: roundRect
+    adjustments: [6000]
+    fill:
+      type: solid
+      color: "$primary"
+
+  - elementId: fb-quote-icon
+    elementType: icon
+    bounds: [90, 575, 24, 24]
+    iconName: "fas:quote-left"
+    fill:
+      type: solid
+      color: "$accent"
+
+  - elementId: fb-quote-text
+    elementType: text
+    bounds: [125, 565, 1070, 70]
+    content:
+      fontSize: 18
+      fontFamily: "QuattrocentoSans"
+      color: "$light"
+      lineHeight: 1.5
+      align: [left, middle]
+      text: |
+        <p>Design is never <strong style="color:$accent;">"done"</strong> — it is continuously refined through evidence and iteration.</p>
+
+  - elementId: fb-bottom-bar
+    elementType: shape
+    bounds: [60, 690, 1160, 3]
+    shapeName: rect
+    fill:
+      type: solid
+      color: "$accent"

@@ -1,0 +1,286 @@
+pageType: content
+background:
+  type: solid
+  color: "$background"
+elements:
+  - elementId: ut-label
+    elementType: text
+    bounds: [60, 45, 200, 22]
+    content:
+      style: "$label"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>USER TESTING</p>
+
+  - elementId: ut-title
+    elementType: text
+    bounds: [60, 75, 700, 40]
+    content:
+      style: "$heading"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>Quick User Testing on Prototypes</p>
+
+  - elementId: ut-accent-bar
+    elementType: shape
+    bounds: [60, 125, 50, 3]
+    shapeName: rect
+    fill:
+      type: solid
+      color: "$accent"
+
+  - elementId: ut-kpi-card
+    elementType: shape
+    bounds: [60, 155, 360, 120]
+    shapeName: roundRect
+    adjustments: [8000]
+    fill:
+      type: solid
+      color: "$muted"
+
+  - elementId: ut-kpi-num
+    elementType: text
+    bounds: [85, 165, 120, 55]
+    content:
+      style: "$accent_number"
+      fontSize: 44
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>10x</p>
+
+  - elementId: ut-kpi-desc
+    elementType: text
+    bounds: [85, 225, 310, 35]
+    content:
+      fontSize: 15
+      fontFamily: "QuattrocentoSans"
+      color: "$secondary"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>Cheaper to fix in prototype phase</p>
+
+  - elementId: ut-kpi2-card
+    elementType: shape
+    bounds: [440, 155, 360, 120]
+    shapeName: roundRect
+    adjustments: [8000]
+    fill:
+      type: solid
+      color: "$muted"
+
+  - elementId: ut-kpi2-num
+    elementType: text
+    bounds: [465, 165, 120, 55]
+    content:
+      style: "$accent_number"
+      fontSize: 44
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>5</p>
+
+  - elementId: ut-kpi2-desc
+    elementType: text
+    bounds: [465, 225, 310, 35]
+    content:
+      fontSize: 15
+      fontFamily: "QuattrocentoSans"
+      color: "$secondary"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>Users reveal 85% of usability issues</p>
+
+  - elementId: ut-methods-card
+    elementType: shape
+    bounds: [820, 155, 400, 120]
+    shapeName: roundRect
+    adjustments: [8000]
+    fill:
+      type: solid
+      color: "$primary"
+
+  - elementId: ut-methods-text
+    elementType: text
+    bounds: [845, 165, 350, 100]
+    content:
+      fontSize: 16
+      fontFamily: "QuattrocentoSans"
+      color: "$light"
+      lineHeight: 1.5
+      align: [left, middle]
+      text: |
+        <p><strong style="color:$accent;">Methods:</strong> Moderated sessions, unmoderated remote (Maze, UserTesting.com), 5-second tests</p>
+
+  - elementId: methods-label
+    elementType: text
+    bounds: [60, 300, 400, 28]
+    content:
+      fontSize: 16
+      fontFamily: "Liter"
+      color: "$accent"
+      letterSpacing: 2
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>TESTING APPROACHES</p>
+
+  - elementId: m1-bg
+    elementType: shape
+    bounds: [60, 340, 373, 150]
+    shapeName: roundRect
+    adjustments: [8000]
+    fill:
+      type: solid
+      color: "$cardFill"
+
+  - elementId: m1-icon
+    elementType: icon
+    bounds: [85, 360, 28, 28]
+    iconName: "fas:bullseye"
+    fill:
+      type: solid
+      color: "$accent"
+
+  - elementId: m1-title
+    elementType: text
+    bounds: [125, 360, 280, 28]
+    content:
+      fontSize: 17
+      fontFamily: "Liter"
+      color: "$primary"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>Task-Based Testing</p>
+
+  - elementId: m1-desc
+    elementType: text
+    bounds: [85, 400, 328, 70]
+    content:
+      fontSize: 15
+      fontFamily: "QuattrocentoSans"
+      color: "$secondary"
+      lineHeight: 1.5
+      align: [left, top]
+      text: |
+        <p>Give users specific goals and observe their navigation path</p>
+
+  - elementId: m2-bg
+    elementType: shape
+    bounds: [453, 340, 374, 150]
+    shapeName: roundRect
+    adjustments: [8000]
+    fill:
+      type: solid
+      color: "$cardFill"
+
+  - elementId: m2-icon
+    elementType: icon
+    bounds: [478, 360, 28, 28]
+    iconName: "fas:brain"
+    fill:
+      type: solid
+      color: "$accent"
+
+  - elementId: m2-title
+    elementType: text
+    bounds: [518, 360, 280, 28]
+    content:
+      fontSize: 17
+      fontFamily: "Liter"
+      color: "$primary"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>Think-Aloud Protocol</p>
+
+  - elementId: m2-desc
+    elementType: text
+    bounds: [478, 400, 329, 70]
+    content:
+      fontSize: 15
+      fontFamily: "QuattrocentoSans"
+      color: "$secondary"
+      lineHeight: 1.5
+      align: [left, top]
+      text: |
+        <p>Ask users to verbalize thoughts while navigating</p>
+
+  - elementId: m3-bg
+    elementType: shape
+    bounds: [847, 340, 373, 150]
+    shapeName: roundRect
+    adjustments: [8000]
+    fill:
+      type: solid
+      color: "$cardFill"
+
+  - elementId: m3-icon
+    elementType: icon
+    bounds: [872, 360, 28, 28]
+    iconName: "fas:stopwatch"
+    fill:
+      type: solid
+      color: "$accent"
+
+  - elementId: m3-title
+    elementType: text
+    bounds: [912, 360, 280, 28]
+    content:
+      fontSize: 17
+      fontFamily: "Liter"
+      color: "$primary"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>5-Second Test</p>
+
+  - elementId: m3-desc
+    elementType: text
+    bounds: [872, 400, 328, 70]
+    content:
+      fontSize: 15
+      fontFamily: "QuattrocentoSans"
+      color: "$secondary"
+      lineHeight: 1.5
+      align: [left, top]
+      text: |
+        <p>Users view a screen briefly, then recall what they saw</p>
+
+  - elementId: metrics-label
+    elementType: text
+    bounds: [60, 520, 400, 28]
+    content:
+      fontSize: 16
+      fontFamily: "Liter"
+      color: "$accent"
+      letterSpacing: 2
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>METRICS TO TRACK</p>
+
+  - elementId: metrics-text
+    elementType: text
+    bounds: [60, 560, 1160, 80]
+    content:
+      fontSize: 18
+      fontFamily: "QuattrocentoSans"
+      color: "$secondary"
+      lineHeight: 1.6
+      align: [left, top]
+      text: |
+        <p>Task success rate  ·  Time-on-task  ·  Error rate  ·  System Usability Scale (SUS) score  ·  Net Promoter Score (NPS)</p>
+
+  - elementId: ut-bottom-bar
+    elementType: shape
+    bounds: [60, 690, 1160, 3]
+    shapeName: rect
+    fill:
+      type: solid
+      color: "$accent"

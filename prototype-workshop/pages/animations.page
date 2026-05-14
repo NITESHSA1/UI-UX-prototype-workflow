@@ -1,0 +1,275 @@
+pageType: content
+background:
+  type: solid
+  color: "$background"
+elements:
+  - elementId: anim-label
+    elementType: text
+    bounds: [60, 45, 200, 22]
+    content:
+      style: "$label"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>MOTION DESIGN</p>
+
+  - elementId: anim-title
+    elementType: text
+    bounds: [60, 75, 800, 40]
+    content:
+      style: "$heading"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>Animations & Transitions That Feel Natural</p>
+
+  - elementId: anim-accent-bar
+    elementType: shape
+    bounds: [60, 125, 50, 3]
+    shapeName: rect
+    fill:
+      type: solid
+      color: "$accent"
+
+  - elementId: anim-principle
+    elementType: shape
+    bounds: [60, 155, 1160, 60]
+    shapeName: roundRect
+    adjustments: [6000]
+    fill:
+      type: solid
+      color: "$primary"
+
+  - elementId: anim-principle-icon
+    elementType: icon
+    bounds: [85, 170, 24, 24]
+    iconName: "fas:wand-magic-sparkles"
+    fill:
+      type: solid
+      color: "$accent"
+
+  - elementId: anim-principle-text
+    elementType: text
+    bounds: [120, 160, 1070, 50]
+    content:
+      fontSize: 18
+      fontFamily: "QuattrocentoSans"
+      color: "$light"
+      align: [left, middle]
+      text: |
+        <p><strong>Purposeful Motion:</strong> Every animation should serve a functional purpose — guide attention, show relationships, or provide feedback.</p>
+
+  - elementId: transitions-label
+    elementType: text
+    bounds: [60, 240, 300, 28]
+    content:
+      fontSize: 16
+      fontFamily: "Liter"
+      color: "$accent"
+      letterSpacing: 2
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>TRANSITION TYPES</p>
+
+  - elementId: t1-bg
+    elementType: shape
+    bounds: [60, 280, 180, 65]
+    shapeName: roundRect
+    adjustments: [10000]
+    fill:
+      type: solid
+      color: "$cardFill"
+
+  - elementId: t1-text
+    elementType: text
+    bounds: [60, 280, 180, 65]
+    content:
+      fontSize: 16
+      fontFamily: "QuattrocentoSans"
+      color: "$primary"
+      align: [center, middle]
+      text: |
+        <p><strong>Instant</strong></p>
+        <p><span style="font-size:13px; color:$secondary;">No animation</span></p>
+
+  - elementId: t2-bg
+    elementType: shape
+    bounds: [260, 280, 180, 65]
+    shapeName: roundRect
+    adjustments: [10000]
+    fill:
+      type: solid
+      color: "$cardFill"
+
+  - elementId: t2-text
+    elementType: text
+    bounds: [260, 280, 180, 65]
+    content:
+      fontSize: 16
+      fontFamily: "QuattrocentoSans"
+      color: "$primary"
+      align: [center, middle]
+      text: |
+        <p><strong>Dissolve</strong></p>
+        <p><span style="font-size:13px; color:$secondary;">Fade in/out</span></p>
+
+  - elementId: t3-bg
+    elementType: shape
+    bounds: [460, 280, 180, 65]
+    shapeName: roundRect
+    adjustments: [10000]
+    fill:
+      type: solid
+      color: "$cardFill"
+
+  - elementId: t3-text
+    elementType: text
+    bounds: [460, 280, 180, 65]
+    content:
+      fontSize: 16
+      fontFamily: "QuattrocentoSans"
+      color: "$primary"
+      align: [center, middle]
+      text: |
+        <p><strong>Slide</strong></p>
+        <p><span style="font-size:13px; color:$secondary;">Directional push</span></p>
+
+  - elementId: t4-bg
+    elementType: shape
+    bounds: [660, 280, 180, 65]
+    shapeName: roundRect
+    adjustments: [10000]
+    fill:
+      type: solid
+      color: "$cardFill"
+
+  - elementId: t4-text
+    elementType: text
+    bounds: [660, 280, 180, 65]
+    content:
+      fontSize: 16
+      fontFamily: "QuattrocentoSans"
+      color: "$primary"
+      align: [center, middle]
+      text: |
+        <p><strong>Overlay</strong></p>
+        <p><span style="font-size:13px; color:$secondary;">Modal/pop-up</span></p>
+
+  - elementId: t5-bg
+    elementType: shape
+    bounds: [860, 280, 180, 65]
+    shapeName: roundRect
+    adjustments: [10000]
+    fill:
+      type: solid
+      color: "$cardFill"
+
+  - elementId: t5-text
+    elementType: text
+    bounds: [860, 280, 180, 65]
+    content:
+      fontSize: 16
+      fontFamily: "QuattrocentoSans"
+      color: "$primary"
+      align: [center, middle]
+      text: |
+        <p><strong>Smart Animate</strong></p>
+        <p><span style="font-size:13px; color:$secondary;">Morph layers</span></p>
+
+  - elementId: t6-bg
+    elementType: shape
+    bounds: [1060, 280, 160, 65]
+    shapeName: roundRect
+    adjustments: [10000]
+    fill:
+      type: solid
+      color: "$cardFill"
+
+  - elementId: t6-text
+    elementType: text
+    bounds: [1060, 280, 160, 65]
+    content:
+      fontSize: 16
+      fontFamily: "QuattrocentoSans"
+      color: "$primary"
+      align: [center, middle]
+      text: |
+        <p><strong>Push</strong></p>
+        <p><span style="font-size:13px; color:$secondary;">Layered depth</span></p>
+
+  - elementId: timing-label
+    elementType: text
+    bounds: [60, 410, 300, 28]
+    content:
+      fontSize: 16
+      fontFamily: "Liter"
+      color: "$accent"
+      letterSpacing: 2
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>TIMING & EASING</p>
+
+  - elementId: timing-left
+    elementType: text
+    bounds: [60, 450, 560, 180]
+    content:
+      fontSize: 18
+      fontFamily: "QuattrocentoSans"
+      color: "$secondary"
+      lineHeight: 1.7
+      align: [left, top]
+      text: |
+        <p><strong style="color:$primary;">Duration:</strong> 200-300ms for UI responses; 400-600ms for screen transitions</p>
+        <p style="margin-top:8px"><strong style="color:$primary;">Easing curves:</strong></p>
+        <p>Ease-in → exits | Ease-out → entrances | Ease-in-out → symmetric</p>
+
+  - elementId: timing-right-card
+    elementType: shape
+    bounds: [660, 450, 560, 180]
+    shapeName: roundRect
+    adjustments: [8000]
+    fill:
+      type: solid
+      color: "$muted"
+
+  - elementId: timing-right-icon
+    elementType: icon
+    bounds: [690, 470, 28, 28]
+    iconName: "fas:bolt"
+    fill:
+      type: solid
+      color: "$accent"
+
+  - elementId: timing-right-label
+    elementType: text
+    bounds: [730, 470, 300, 28]
+    content:
+      fontSize: 16
+      fontFamily: "Liter"
+      color: "$primary"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>MICRO-INTERACTIONS</p>
+
+  - elementId: timing-right-text
+    elementType: text
+    bounds: [690, 510, 500, 100]
+    content:
+      fontSize: 16
+      fontFamily: "QuattrocentoSans"
+      color: "$secondary"
+      lineHeight: 1.6
+      align: [left, top]
+      text: |
+        <p>Button hovers · Loading spinners · Toggle switches · Pull-to-refresh · Success checkmarks</p>
+
+  - elementId: anim-bottom-bar
+    elementType: shape
+    bounds: [60, 690, 1160, 3]
+    shapeName: rect
+    fill:
+      type: solid
+      color: "$accent"

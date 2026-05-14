@@ -1,0 +1,180 @@
+pageType: final
+background:
+  type: image
+  src: "https://kimi-web-img.moonshot.cn/img/generalassemb.ly/78e8e8f4a4beb8edf3dcb3c1e8dec3803f8c26f3.jpeg"
+  fit: {mode: cover}
+  mask:
+    type: gradient
+    gradientType: linear
+    angle: 90
+    stops:
+      - {position: 0, color: "#0F0F1AF5"}
+      - {position: 0.5, color: "#0F0F1AE0"}
+      - {position: 1, color: "#0F0F1ACC"}
+elements:
+  - elementId: final-label
+    elementType: text
+    bounds: [60, 80, 300, 22]
+    content:
+      fontSize: 14
+      fontFamily: "Liter"
+      color: "$accent"
+      letterSpacing: 3
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>KEY TAKEAWAYS</p>
+
+  - elementId: final-accent-line
+    elementType: shape
+    bounds: [60, 115, 60, 3]
+    shapeName: rect
+    fill:
+      type: solid
+      color: "$accent"
+
+  - elementId: final-title
+    elementType: text
+    bounds: [60, 135, 600, 55]
+    content:
+      fontSize: 38
+      fontFamily: "Liter"
+      color: "$light"
+      letterSpacing: 3
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>WHAT YOU'VE LEARNED</p>
+
+  - elementId: tk1-icon
+    elementType: icon
+    bounds: [60, 220, 20, 20]
+    iconName: "fas:check"
+    fill:
+      type: solid
+      color: "$accent"
+
+  - elementId: tk1-text
+    elementType: text
+    bounds: [95, 210, 550, 50]
+    content:
+      fontSize: 18
+      fontFamily: "QuattrocentoSans"
+      color: "$light"
+      lineHeight: 1.5
+      align: [left, middle]
+      text: |
+        <p>Prototypes bridge imagination and reality</p>
+
+  - elementId: tk2-icon
+    elementType: icon
+    bounds: [60, 275, 20, 20]
+    iconName: "fas:check"
+    fill:
+      type: solid
+      color: "$accent"
+
+  - elementId: tk2-text
+    elementType: text
+    bounds: [95, 265, 550, 50]
+    content:
+      fontSize: 18
+      fontFamily: "QuattrocentoSans"
+      color: "$light"
+      lineHeight: 1.5
+      align: [left, middle]
+      text: |
+        <p>Figma & InVision make prototyping accessible</p>
+
+  - elementId: tk3-icon
+    elementType: icon
+    bounds: [60, 330, 20, 20]
+    iconName: "fas:check"
+    fill:
+      type: solid
+      color: "$accent"
+
+  - elementId: tk3-text
+    elementType: text
+    bounds: [95, 320, 550, 50]
+    content:
+      fontSize: 18
+      fontFamily: "QuattrocentoSans"
+      color: "$light"
+      lineHeight: 1.5
+      align: [left, middle]
+      text: |
+        <p>Natural motion enhances usability</p>
+
+  - elementId: tk4-icon
+    elementType: icon
+    bounds: [60, 385, 20, 20]
+    iconName: "fas:check"
+    fill:
+      type: solid
+      color: "$accent"
+
+  - elementId: tk4-text
+    elementType: text
+    bounds: [95, 375, 550, 50]
+    content:
+      fontSize: 18
+      fontFamily: "QuattrocentoSans"
+      color: "$light"
+      lineHeight: 1.5
+      align: [left, middle]
+      text: |
+        <p>5 users uncover most issues early</p>
+
+  - elementId: tk5-icon
+    elementType: icon
+    bounds: [60, 440, 20, 20]
+    iconName: "fas:check"
+    fill:
+      type: solid
+      color: "$accent"
+
+  - elementId: tk5-text
+    elementType: text
+    bounds: [95, 430, 550, 50]
+    content:
+      fontSize: 18
+      fontFamily: "QuattrocentoSans"
+      color: "$light"
+      lineHeight: 1.5
+      align: [left, middle]
+      text: |
+        <p>Feedback fuels continuous refinement</p>
+
+  - elementId: final-cta-line
+    elementType: shape
+    bounds: [60, 510, 200, 3]
+    shapeName: rect
+    fill:
+      type: solid
+      color: "$accent"
+
+  - elementId: final-cta
+    elementType: text
+    bounds: [60, 535, 700, 50]
+    content:
+      fontSize: 24
+      fontFamily: "Liter"
+      color: "$accent"
+      letterSpacing: 2
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>BUILD, TEST, LEARN, AND REPEAT</p>
+
+  - elementId: final-subtitle
+    elementType: text
+    bounds: [60, 600, 500, 35]
+    content:
+      fontSize: 18
+      fontFamily: "QuattrocentoSans"
+      color: "#F9F8F6AA"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>Interactive Prototype Creation Workshop</p>

@@ -1,0 +1,64 @@
+pageType: cover
+background:
+  type: image
+  src: "https://kimi-web-img.moonshot.cn/img/img.freepik.com/a9bb3e43ffbd0d369b39f197f3b98675d0e53f92.jpg"
+  fit: {mode: cover}
+  mask:
+    type: gradient
+    gradientType: radial
+    stops:
+      - {position: 0, color: "#0F0F1ACC"}
+      - {position: 1, color: "#0F0F1AF0"}
+elements:
+  - elementId: accent-line-top
+    elementType: shape
+    bounds: [565, 230, 150, 3]
+    shapeName: rect
+    fill:
+      type: solid
+      color: "$accent"
+
+  - elementId: cover-title
+    elementType: text
+    bounds: [115, 260, 1050, 60]
+    content:
+      style: "$title"
+      fontSize: 48
+      letterSpacing: 6
+      align: [center, middle]
+      wrap: false
+      text: |
+        <p>INTERACTIVE PROTOTYPE CREATION</p>
+
+  - elementId: cover-subtitle
+    elementType: text
+    bounds: [240, 340, 800, 36]
+    content:
+      fontSize: 22
+      fontFamily: "QuattrocentoSans"
+      color: "#F9F8F6CC"
+      align: [center, middle]
+      wrap: false
+      text: |
+        <p>From Wireframes to Clickable Experiences</p>
+
+  - elementId: accent-line-bottom
+    elementType: shape
+    bounds: [565, 400, 150, 3]
+    shapeName: rect
+    fill:
+      type: solid
+      color: "$accent"
+
+  - elementId: cover-tagline
+    elementType: text
+    bounds: [340, 420, 600, 30]
+    content:
+      fontSize: 16
+      fontFamily: "QuattrocentoSans"
+      color: "#F9F8F699"
+      letterSpacing: 3
+      align: [center, middle]
+      wrap: false
+      text: |
+        <p>A HANDS-ON WORKSHOP</p>

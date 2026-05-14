@@ -1,0 +1,244 @@
+pageType: content
+background:
+  type: solid
+  color: "$background"
+elements:
+  - elementId: nav-label
+    elementType: text
+    bounds: [60, 45, 250, 22]
+    content:
+      style: "$label"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>NAVIGATION DESIGN</p>
+
+  - elementId: nav-title
+    elementType: text
+    bounds: [60, 75, 800, 40]
+    content:
+      style: "$heading"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>Designing Seamless Navigation Flows</p>
+
+  - elementId: nav-accent-bar
+    elementType: shape
+    bounds: [60, 125, 50, 3]
+    shapeName: rect
+    fill:
+      type: solid
+      color: "$accent"
+
+  - elementId: nav-intro
+    elementType: text
+    bounds: [60, 150, 1160, 35]
+    content:
+      fontSize: 18
+      fontFamily: "QuattrocentoSans"
+      color: "$secondary"
+      align: [left, middle]
+      text: |
+        <p>Map the complete user journey from entry point to goal completion</p>
+
+  - elementId: col1-card
+    elementType: shape
+    bounds: [60, 205, 270, 310]
+    shapeName: roundRect
+    adjustments: [8000]
+    fill:
+      type: solid
+      color: "$cardFill"
+
+  - elementId: col1-icon
+    elementType: icon
+    bounds: [85, 225, 32, 32]
+    iconName: "fas:compass"
+    fill:
+      type: solid
+      color: "$accent"
+
+  - elementId: col1-title
+    elementType: text
+    bounds: [85, 270, 220, 28]
+    content:
+      fontSize: 18
+      fontFamily: "Liter"
+      color: "$primary"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>Primary Nav</p>
+
+  - elementId: col1-desc
+    elementType: text
+    bounds: [85, 305, 220, 190]
+    content:
+      fontSize: 15
+      fontFamily: "QuattrocentoSans"
+      color: "$secondary"
+      lineHeight: 1.6
+      align: [left, top]
+      text: |
+        <p>Tab bars, side menus, hamburger menus — keep consistent across all screens</p>
+
+  - elementId: col2-card
+    elementType: shape
+    bounds: [355, 205, 270, 310]
+    shapeName: roundRect
+    adjustments: [8000]
+    fill:
+      type: solid
+      color: "$cardFill"
+
+  - elementId: col2-icon
+    elementType: icon
+    bounds: [380, 225, 32, 32]
+    iconName: "fas:route"
+    fill:
+      type: solid
+      color: "$accent"
+
+  - elementId: col2-title
+    elementType: text
+    bounds: [380, 270, 220, 28]
+    content:
+      fontSize: 18
+      fontFamily: "Liter"
+      color: "$primary"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>Secondary Nav</p>
+
+  - elementId: col2-desc
+    elementType: text
+    bounds: [380, 305, 220, 190]
+    content:
+      fontSize: 15
+      fontFamily: "QuattrocentoSans"
+      color: "$secondary"
+      lineHeight: 1.6
+      align: [left, top]
+      text: |
+        <p>Breadcrumbs, back buttons, contextual links — aid wayfinding</p>
+
+  - elementId: col3-card
+    elementType: shape
+    bounds: [650, 205, 270, 310]
+    shapeName: roundRect
+    adjustments: [8000]
+    fill:
+      type: solid
+      color: "$cardFill"
+
+  - elementId: col3-icon
+    elementType: icon
+    bounds: [675, 225, 32, 32]
+    iconName: "fas:door-open"
+    fill:
+      type: solid
+      color: "$accent"
+
+  - elementId: col3-title
+    elementType: text
+    bounds: [675, 270, 220, 28]
+    content:
+      fontSize: 18
+      fontFamily: "Liter"
+      color: "$primary"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>Entry Points</p>
+
+  - elementId: col3-desc
+    elementType: text
+    bounds: [675, 305, 220, 190]
+    content:
+      fontSize: 15
+      fontFamily: "QuattrocentoSans"
+      color: "$secondary"
+      lineHeight: 1.6
+      align: [left, top]
+      text: |
+        <p>Deep links, notifications, search results — define how users arrive</p>
+
+  - elementId: col4-card
+    elementType: shape
+    bounds: [945, 205, 275, 310]
+    shapeName: roundRect
+    adjustments: [8000]
+    fill:
+      type: solid
+      color: "$cardFill"
+
+  - elementId: col4-icon
+    elementType: icon
+    bounds: [970, 225, 32, 32]
+    iconName: "fas:circle-exclamation"
+    fill:
+      type: solid
+      color: "$accent"
+
+  - elementId: col4-title
+    elementType: text
+    bounds: [970, 270, 225, 28]
+    content:
+      fontSize: 18
+      fontFamily: "Liter"
+      color: "$primary"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>Error States</p>
+
+  - elementId: col4-desc
+    elementType: text
+    bounds: [970, 305, 225, 190]
+    content:
+      fontSize: 15
+      fontFamily: "QuattrocentoSans"
+      color: "$secondary"
+      lineHeight: 1.6
+      align: [left, top]
+      text: |
+        <p>404s, empty states, permission denied — every path needs a destination</p>
+
+  - elementId: nav-protip-card
+    elementType: shape
+    bounds: [60, 545, 1160, 100]
+    shapeName: roundRect
+    adjustments: [6000]
+    fill:
+      type: solid
+      color: "$primary"
+
+  - elementId: nav-protip-icon
+    elementType: icon
+    bounds: [90, 570, 28, 28]
+    iconName: "fas:map"
+    fill:
+      type: solid
+      color: "$accent"
+
+  - elementId: nav-protip-text
+    elementType: text
+    bounds: [130, 555, 1060, 80]
+    content:
+      fontSize: 18
+      fontFamily: "QuattrocentoSans"
+      color: "$light"
+      lineHeight: 1.5
+      align: [left, middle]
+      text: |
+        <p><strong style="color:$accent;">Pro Tip:</strong> Create a navigation map diagram before building connections in your tool. Visualize all paths forward and back.</p>
+
+  - elementId: nav-bottom-bar
+    elementType: shape
+    bounds: [60, 690, 1160, 3]
+    shapeName: rect
+    fill:
+      type: solid
+      color: "$accent"

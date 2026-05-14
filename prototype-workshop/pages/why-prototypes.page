@@ -1,0 +1,126 @@
+pageType: content
+background:
+  type: solid
+  color: "$background"
+elements:
+  - elementId: wp-label
+    elementType: text
+    bounds: [60, 45, 200, 22]
+    content:
+      style: "$label"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>FOUNDATIONS</p>
+
+  - elementId: wp-title
+    elementType: text
+    bounds: [60, 75, 700, 40]
+    content:
+      style: "$heading"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>Why Interactive Prototypes Matter</p>
+
+  - elementId: wp-accent-bar
+    elementType: shape
+    bounds: [60, 125, 50, 3]
+    shapeName: rect
+    fill:
+      type: solid
+      color: "$accent"
+
+  - elementId: wp-left-content
+    elementType: text
+    bounds: [60, 155, 660, 310]
+    content:
+      style: "$body"
+      fontSize: 18
+      lineHeight: 1.6
+      align: [left, top]
+      text: |
+        <ul>
+        <li><strong style="color:$primary;">Bridge the gap</strong> between static designs and final products</li>
+        <li>Stakeholders can <strong style="color:$primary;">experience the product</strong> before development begins</li>
+        <li>Identify usability issues <strong style="color:$primary;">early</strong>, saving time and resources</li>
+        <li>Prototypes communicate <strong style="color:$primary;">interactions</strong> that wireframes cannot express</li>
+        </ul>
+
+  - elementId: wp-kpi-card
+    elementType: shape
+    bounds: [760, 155, 460, 120]
+    shapeName: roundRect
+    adjustments: [8000]
+    fill:
+      type: solid
+      color: "$muted"
+
+  - elementId: wp-kpi-number
+    elementType: text
+    bounds: [790, 165, 200, 60]
+    content:
+      style: "$accent_number"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>50%</p>
+
+  - elementId: wp-kpi-label
+    elementType: text
+    bounds: [790, 230, 400, 30]
+    content:
+      style: "$caption"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>Reduction in development rework</p>
+
+  - elementId: wp-insight-card
+    elementType: shape
+    bounds: [760, 305, 460, 160]
+    shapeName: roundRect
+    adjustments: [8000]
+    fill:
+      type: solid
+      color: "$primary"
+
+  - elementId: wp-insight-icon
+    elementType: icon
+    bounds: [790, 325, 28, 28]
+    iconName: "fas:arrows-left-right"
+    fill:
+      type: solid
+      color: "$accent"
+
+  - elementId: wp-insight-title
+    elementType: text
+    bounds: [830, 325, 360, 28]
+    content:
+      fontSize: 16
+      fontFamily: "Liter"
+      color: "$light"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>KEY DIFFERENCE</p>
+
+  - elementId: wp-insight-text
+    elementType: text
+    bounds: [790, 365, 400, 80]
+    content:
+      fontSize: 18
+      fontFamily: "QuattrocentoSans"
+      color: "#F9F8F6CC"
+      lineHeight: 1.5
+      align: [left, top]
+      text: |
+        <p>Wireframes show <strong style="color:$accent;">structure</strong>. Prototypes show <strong style="color:$accent;">behavior and flow</strong>.</p>
+
+  - elementId: wp-bottom-bar
+    elementType: shape
+    bounds: [60, 690, 1160, 3]
+    shapeName: rect
+    fill:
+      type: solid
+      color: "$accent"

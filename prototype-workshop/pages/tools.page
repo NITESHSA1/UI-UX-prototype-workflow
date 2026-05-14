@@ -1,0 +1,176 @@
+pageType: content
+background:
+  type: solid
+  color: "$background"
+elements:
+  - elementId: tools-label
+    elementType: text
+    bounds: [60, 45, 200, 22]
+    content:
+      style: "$label"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>TOOLS & PLATFORMS</p>
+
+  - elementId: tools-title
+    elementType: text
+    bounds: [60, 75, 700, 40]
+    content:
+      style: "$heading"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>Tools of the Trade: Figma & InVision</p>
+
+  - elementId: tools-accent-bar
+    elementType: shape
+    bounds: [60, 125, 50, 3]
+    shapeName: rect
+    fill:
+      type: solid
+      color: "$accent"
+
+  - elementId: figma-card
+    elementType: shape
+    bounds: [60, 155, 555, 220]
+    shapeName: roundRect
+    adjustments: [8000]
+    fill:
+      type: solid
+      color: "$cardFill"
+
+  - elementId: figma-icon
+    elementType: icon
+    bounds: [90, 175, 36, 36]
+    iconName: "fab:figma"
+    fill:
+      type: solid
+      color: "$primary"
+
+  - elementId: figma-name
+    elementType: text
+    bounds: [140, 175, 200, 36]
+    content:
+      fontSize: 24
+      fontFamily: "Liter"
+      color: "$primary"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>Figma</p>
+
+  - elementId: figma-desc
+    elementType: text
+    bounds: [90, 225, 495, 130]
+    content:
+      fontSize: 16
+      fontFamily: "QuattrocentoSans"
+      color: "$secondary"
+      lineHeight: 1.6
+      align: [left, top]
+      text: |
+        <p>All-in-one design tool with built-in prototyping, real-time collaboration, and component-based workflow. Best when design and prototype live in one place.</p>
+
+  - elementId: invision-card
+    elementType: shape
+    bounds: [665, 155, 555, 220]
+    shapeName: roundRect
+    adjustments: [8000]
+    fill:
+      type: solid
+      color: "$cardFill"
+
+  - elementId: invision-icon
+    elementType: icon
+    bounds: [695, 175, 36, 36]
+    iconName: "fab:invision"
+    fill:
+      type: solid
+      color: "$primary"
+
+  - elementId: invision-name
+    elementType: text
+    bounds: [745, 175, 200, 36]
+    content:
+      fontSize: 24
+      fontFamily: "Liter"
+      color: "$primary"
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>InVision</p>
+
+  - elementId: invision-desc
+    elementType: text
+    bounds: [695, 225, 495, 130]
+    content:
+      fontSize: 16
+      fontFamily: "QuattrocentoSans"
+      color: "$secondary"
+      lineHeight: 1.6
+      align: [left, top]
+      text: |
+        <p>Dedicated prototyping platform with advanced animation, user testing integration, and seamless developer handoff. Ideal for complex interactions.</p>
+
+  - elementId: both-label
+    elementType: text
+    bounds: [60, 400, 300, 30]
+    content:
+      fontSize: 16
+      fontFamily: "Liter"
+      color: "$accent"
+      letterSpacing: 2
+      align: [left, middle]
+      wrap: false
+      text: |
+        <p>BOTH SUPPORT</p>
+
+  - elementId: both-features
+    elementType: text
+    bounds: [60, 440, 1160, 55]
+    content:
+      fontSize: 18
+      fontFamily: "QuattrocentoSans"
+      color: "$secondary"
+      lineHeight: 1.6
+      align: [left, middle]
+      text: |
+        <p>Clickable hotspots  ·  Screen transitions  ·  Overlay panels  ·  Scrollable areas  ·  Smart animate  ·  Real-time preview  ·  Shareable links</p>
+
+  - elementId: tip-card
+    elementType: shape
+    bounds: [60, 560, 1160, 80]
+    shapeName: roundRect
+    adjustments: [6000]
+    fill:
+      type: solid
+      color: "$muted"
+
+  - elementId: tip-icon
+    elementType: icon
+    bounds: [90, 580, 28, 28]
+    iconName: "fas:lightbulb"
+    fill:
+      type: solid
+      color: "$accent"
+
+  - elementId: tip-text
+    elementType: text
+    bounds: [130, 570, 1060, 60]
+    content:
+      fontSize: 18
+      fontFamily: "QuattrocentoSans"
+      color: "$primary"
+      lineHeight: 1.5
+      align: [left, middle]
+      text: |
+        <p><strong>Pro Tip:</strong> Start with low-fidelity prototypes and progressively add detail as you validate concepts.</p>
+
+  - elementId: tools-bottom-bar
+    elementType: shape
+    bounds: [60, 690, 1160, 3]
+    shapeName: rect
+    fill:
+      type: solid
+      color: "$accent"
